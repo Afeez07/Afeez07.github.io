@@ -1,0 +1,154 @@
+/* Custom Styles for Afeez Onabekun's Portfolio */
+
+/* General Enhancements */
+body {
+    font-family: 'Open Sans', sans-serif; /* A more modern and readable font */
+    line-height: 1.7;
+    color: #444;
+    background-color: #f7f7f7; /* Light, subtle background */
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #333;
+    line-height: 1.3;
+}
+
+.accent-text {
+    color: #007bff; /* A professional and modern accent color */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Navigation */
+#nav ul.container li a {
+    font-weight: 600;
+    color: #555;
+    padding: 0.75em 1em;
+}
+
+#nav ul.container li a:hover {
+    color: #007bff;
+}
+
+/* Introduction Section */
+#Introduction {
+    padding: 6em 0;
+}
+
+#Introduction h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#Introduction .image.fit img {
+    border-radius: 8px; /* Slightly rounded profile picture */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Skills Section */
+#work {
+    background-color: #fff;
+    padding: 6em 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.02);
+}
+
+#work header p.major {
+    color: #777;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.skill-item .box.style1 {
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 2em;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.skill-item .box.style1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+}
+
+.skill-item .box.style1 .icon.featured {
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.skill-item .box.style1 h3 {
+    margin-bottom: 0.75em;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 6em 0;
+    background-color: #f7f7f7;
+}
+
+.project-item .box.style2 {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.project-item .box.style2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+}
+
+.project-item .box.style2 .image.featured img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item .box.style2:hover .image.featured img {
+    transform: scale(1.05);
+}
+
+.project-item .box.style2 h3 a {
+    color: #333;
+    font-weight: 600;
+}
+
+.project-item .box.style2 h3 a:hover {
+    color: #007bff;
+}
+
+.project-item .box.style2 p {
+    margin-top: 0.5em;
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 5em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+#contact h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#contact hr {
+    border-color: #ddd;
+    margin: 2em auto;
+    width: 60%;
+}
+
+#contact ul.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
